@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>AronUltimate</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+				<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/amelia/bootstrap.min.css" rel="stylesheet">
+				<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+				<link href="/home/weblogicx/learning/bootstrap1/css/temp_style.css" rel="stylesheet" type="text/css">
+				<link href="/home/weblogicx/learning/bootstrap1/js/temp_bootstr.js" rel="stylesheet" type="text/javascript">
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+var image1=new Image()
+image1.src="http://img6a.flixcart.com/www/promos/new/20140912-124020-mens-store-banner-3-620-1.jpg"
+var image2=new Image()
+image2.src="http://img6a.flixcart.com/www/promos/new/20140912-115129-mens-store-banner-1-618-2.jpg"
+var image3=new Image()
+image3.src="http://img5a.flixcart.com/www/promos/new/20140911-163043-mens-store-banner-2-619-2.jpg"
+</script>
+	</head>	
+	
+	<body>
+	<div class="container">
+		<h1>aron</h1>
+		<p>The Ultimate Collection</p>
+	</div>
+	<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Aristor</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MEN<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">T-shirts</a></li>
+          <li><a href="#">jean</a></li>
+          <li><a href="#">inner wear & sleep wear</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-header">Formals</li>
+          <li><a href="#">Formal shirt's</a></li>
+          <li><a href="#">casual & partywearshirts </a></li>
+        </ul>
+      </li>
+    </ul>
+    <form class="navbar-form navbar-left">
+      <input class="form-control col-lg-8" placeholder="Search" type="text">
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">OFFERS ZONE</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">WOMEN<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Shirt Top's & Tunics</a></li>
+          <li><a href="#">Sport's & Gymwear</a></li>
+          <li><a href="#">t-shits</a></li>
+          <li class="divider"></li>
+          <li><a href="#">View All</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+	<a href="javascript:slidelink()">
+<img src="http://img6a.flixcart.com/www/promos/new/20140912-124020-mens-store-banner-3-620-1.jpg" alt="" name="slide" border="0" width="1288" height="600" /></a>
+<script type="text/javascript">
+var step=1
+var whichimage=1
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+whichimage=step
+if (step<3)
+step++
+else
+step=1
+setTimeout("slideit()",4000)
+}
+slideit()
+function slidelink(){
+if (whichimage==1)
+window.location="link1.htm"
+else if (whichimage==2)
+window.location="link2.htm"
+else if (whichimage==3)
+window.location="link3.htm"
+}
+</script>
+	<form class="form-horizontal">
+  <fieldset>
+    <legend>Select Your Style</legend>
+    <div class="form-group>
+      <label class="col-lg-2 control-label"></label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+            Price
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+            Size
+          </label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label"></label>
+      <div class="col-lg-8">
+        <select class="form-control" id="select">
+          <option>s</option>
+          <option>m</option>
+          <option>l</option>
+          <option>xl</option>
+          <option>xxxl</option>
+        </select>
+        <br>
+        <select multiple="" class="form-control">
+          <option>28</option>
+          <option>32</option>
+          <option>34</option>
+          <option>36</option>
+          <option>42</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+    <img class="content_image" src="http://img5a.flixcart.com/www/promos/new/20140416-183517-header-trending-now.gif" alt="" /> 
+	<div class="jm-item-wrapper">
+			<img class="jm-item-image1" src="http://img6a.flixcart.com/www/promos/new/20140828-125739-office-casuals.jpg" alt=" " />
+			<img class="jm-item-image2" src="http://img6a.flixcart.com/www/promos/new/20140828-130125-hooded-tees.jpg" alt=""/>
+			<img class="jm-item-image3" src="http://img5a.flixcart.com/www/promos/new/20140828-130220-superhero-tees.jpg" alt=""/>
+			<img class="jm-item-image4" src="http://img6a.flixcart.com/www/promos/new/20140828-130324-combos.jpg" alt=""/>
+			<img class="jm-item-image5" src="http://img6a.flixcart.com/www/promos/new/20140828-130506-music-tees.jpg" alt=""/>
+</div>
+  </fieldset>
+</form>
+<ul class="pagination">
+  <li class="disabled"><a href="#">«</a></li>
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">20</a></li>
+  <li><a href="#">»</a></li>
+</ul>
+
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+
+	</body>
+</html>
